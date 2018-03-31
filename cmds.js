@@ -3,7 +3,7 @@ const {log, biglog, errorlog, colorize} = require("./out");
 const {models} = require('./model');
 
 
- */
+
 exports.helpCmd = (socket, rl) => {
     log(socket, "Comandos:");
     log(socket, "h|help - Muestra esta ayuda.");
